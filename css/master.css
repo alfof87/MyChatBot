@@ -1,0 +1,74 @@
+/* GENERAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-image: url('../img/wall.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* MSG */
+.scrollbar {
+    overflow: auto;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.messages{
+  width: 50%;
+  height: 600px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+/* .msg-sent:after{
+  content: " ";
+  display: table;
+  clear: both;
+} */
+.msg-received{
+  width: 35%;
+  height: auto;
+  background-color: grey;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+.msg-sent{
+  width: 35%;
+  height: auto;
+  background-color: grey;
+  border-radius: 10px;
+  margin: 20px;
+  margin-left: 60%;
+  padding: 20px;
+}
+span{
+  margin: 10px;
+}
+/* MSG INPUT */
+#template-message-sent{
+  display: none;
+}
+.container-input{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+}
+input{
+  width:42%;
+  height: 50px;
+  margin: 10px;
+}
+button{
+  width:100px;
+  height: 50px;
+  margin: 10px;
+  background-color: green;
+}

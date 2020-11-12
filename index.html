@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My ChatBot</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <link rel="stylesheet" href="./css/master.css">
+  </head>
+  <body>
+    <!-- inizio container -->
+    <div class="container">
+      <div id="target" class="messages scrollbar">
+        <div class="">
+
+        </div>
+
+        <div class="">
+
+        </div>
+
+      </div>
+    </div>
+    <!-- fine container -->
+    <!-- inizio container input -->
+    <div class="container-input">
+        <input id="new-message-input" type="text" placeholder="Scrivi un messaggio" name="" value="">
+        <button id="btn" type="button" name="button"><strong>Invia</strong></button>
+    </div>
+    <div id="template-message-sent">
+      <div class="msg-sent">
+
+          <span id="message-sent"></span>
+
+    </div>
+    <div id="template-message-reply">
+      <div class="msg-received">
+
+          <span id="message-reply"></span>
+
+    </div>
+    </div>
+      <!-- fine container input -->
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>
